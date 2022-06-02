@@ -8,8 +8,7 @@ app.use(cors({origin: "*",}));
 app.use(express.json());
 dotenv.config();
 
-// MONGO DB CONNECTION  "mongodb+srv://bala2:ylhio9xQKOksuK2y@bmail.c6yrj.mongodb.net"
-const URL = process.env.URL;
+ const URL = process.env.URL;
 let PORT = process.env.PORT;
  
 
